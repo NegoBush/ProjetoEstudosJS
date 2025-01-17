@@ -1,5 +1,5 @@
 'use strict';
-
+//      json (JavaScript Object Notation)
 const sons = {
     'A': 'boom.wav',
     'S': 'clap.wav',

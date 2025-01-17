@@ -26,6 +26,25 @@ function imc () {
             classificacao = 'com obesidade grau 3, CUIDADO!!!';
         }
 
+        // switch (valorIMC) {
+        //     case 18.5:
+        //         classificacao = 'abaixo do peso!';
+        //         break;
+        //     case 25:
+        //         classificacao = 'com o peso ideal. Parabéns!!';
+        //         break;
+        //     case 30:
+        //         classificacao = 'levemente acima do peso.';
+        //         break;
+        //     case 35:
+        //         classificacao = 'com obesidade grau 1, CUIDADO!'
+        //         break;
+        //     case 40: classificacao = 'com obesidade grau 2, CUIDADO!!';
+        //         break;
+        //     default : classificacao = 'com obesidade grau 3, CUIDADO!!!';
+        //         break;
+        // }
+
         resultado.textContent = `${nome} seu IMC é ${valorIMC} e você esta ${classificacao}`;
 
     }else {
